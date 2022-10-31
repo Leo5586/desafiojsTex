@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../image/mapaMundi.jpg)
+}
+
+.container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4.5rem;
+    border-radius: 1rem;
+    box-shadow: 15px 15px 10px rgba(65, 65, 65, 0.4);
+    background-color: rgba(3, 2, 2, 0.745);
+}
+
+.title {
+    color: rgb(218, 203, 0);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.title span {
+    color: white;
+    font-weight: 400;
+}
+
+#boxMensagem {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 50px 0px;
+}
+
+#boxMensagem span {
+    color: rgb(218, 203, 0);
+}
+
+#btnMensagem {
+    padding: 10px 30px;
+    background: rgb(218, 203, 0);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+}
+
+#btnMensagem:hover {
+    background-color: rgb(149, 255, 0);
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 2.5rem;
+    }
+}
